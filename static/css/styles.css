@@ -1,0 +1,144 @@
+/*@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_1.css");
+@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_2.css");
+@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_3.css");
+@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_4mob.css");
+
+body:after {
+  background-image: url("https://i.ibb.co/rpqmdnV/back.jpg");
+}
+
+.l-footer:after {
+  content: "*Lilac Blizzard*";
+}
+
+@media screen and (min-width: 1px) {
+  .correct-mob-version {
+    color: normal;
+  }
+}
+
+.booody {
+  color: #fff;
+}
+
+
+@media screen and (min-width: 1px) {
+  html:root {
+    --white-color: 198, 203, 241;
+    --light-color: 164, 172, 229;
+    --dark-color: 122, 132, 208;
+    --bright-color: 118, 133, 245;
+    --dull-color: 108, 112, 146;
+    --input-color: 77, 79, 165;
+    --hover-bottoms-1: 27, 27, 62;
+    --buttoms-color: 45, 45, 103;
+    --hover-buttoms-2: 156, 98, 25;
+    --very-high-rating: 114, 124, 199;
+    --high-rating: 66, 75, 143;
+    --average-rating: 51, 58, 113;
+    --small-rating: 36, 43, 91;
+    --time-filled: 53, 58, 132;
+    --time-empty: 24, 26, 64;
+    --anime-inprocess: 69, 146, 76;
+    --anime-complete: 41, 107, 47;
+    --manga-inprocess: 189, 15, 86;
+    --manga-complete: 153, 0, 62;
+    --hover-color: 210, 137, 45;
+    --shadows-color: 110, 120, 190;
+    --block-color: 43, 42, 97;
+    --menu-back: 25, 25, 53;
+    --nick-cover: 71, 49, 156;
+    --popup-color: 36, 35, 83;
+    --hundred: 1;
+  }
+}
+
+.l-page {
+  background-color: rgba(var(--menu-back), 1);
+}
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
+  color: #551f2f;
+  background-color: #c89e9e;
+  border: 1px solid #551f2f;
+}
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
+  color: #1b2e63;
+  background-color: #8fadd2;
+  border: 1px solid #1b2e63;
+}
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
+  color: #12433b;
+  background-color: #90c7ad;
+  border: 1px solid #12433b;
+}
+
+.b-news_line-topic .status-line {
+  color: #fff;
+}
+
+.p-dashboards-show .v2 .my-list {
+  background-color: #272757;
+  border: 1px solid rgb(35, 35, 79);
+}
+
+.p-dashboards-show .v2 .my-list .label {
+   color: #a8abd4;
+}
+
+.b-user_rate-history .status-counter {
+   color: #a8abd4;
+}*/
+body {
+  background: #1c1e20;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.BottomMenu_box {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: 80px;
+    background: rgba(49,49,49,.5);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.BottomMenu_icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151719;
+}
+
+.MainScreen_wrapper {
+  height: 100vh;
+  background: #1c1e20;
+  overflow: hidden;
+}
