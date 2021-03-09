@@ -1,98 +1,13 @@
-/*@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_1.css");
-@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_2.css");
-@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_3.css");
-@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_4mob.css");
-
-body:after {
-  background-image: url("https://i.ibb.co/rpqmdnV/back.jpg");
-}
-
-.l-footer:after {
-  content: "*Lilac Blizzard*";
-}
-
-@media screen and (min-width: 1px) {
-  .correct-mob-version {
-    color: normal;
-  }
-}
-
-.booody {
-  color: #fff;
-}
-
-
-@media screen and (min-width: 1px) {
-  html:root {
-    --white-color: 198, 203, 241;
-    --light-color: 164, 172, 229;
-    --dark-color: 122, 132, 208;
-    --bright-color: 118, 133, 245;
-    --dull-color: 108, 112, 146;
-    --input-color: 77, 79, 165;
-    --hover-bottoms-1: 27, 27, 62;
-    --buttoms-color: 45, 45, 103;
-    --hover-buttoms-2: 156, 98, 25;
-    --very-high-rating: 114, 124, 199;
-    --high-rating: 66, 75, 143;
-    --average-rating: 51, 58, 113;
-    --small-rating: 36, 43, 91;
-    --time-filled: 53, 58, 132;
-    --time-empty: 24, 26, 64;
-    --anime-inprocess: 69, 146, 76;
-    --anime-complete: 41, 107, 47;
-    --manga-inprocess: 189, 15, 86;
-    --manga-complete: 153, 0, 62;
-    --hover-color: 210, 137, 45;
-    --shadows-color: 110, 120, 190;
-    --block-color: 43, 42, 97;
-    --menu-back: 25, 25, 53;
-    --nick-cover: 71, 49, 156;
-    --popup-color: 36, 35, 83;
-    --hundred: 1;
-  }
-}
-
-.l-page {
-  background-color: rgba(var(--menu-back), 1);
-}
-
-.p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
-  color: #551f2f;
-  background-color: #c89e9e;
-  border: 1px solid #551f2f;
-}
-
-.p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
-  color: #1b2e63;
-  background-color: #8fadd2;
-  border: 1px solid #1b2e63;
-}
-
-.p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
-  color: #12433b;
-  background-color: #90c7ad;
-  border: 1px solid #12433b;
-}
-
-.b-news_line-topic .status-line {
-  color: #fff;
-}
-
-.p-dashboards-show .v2 .my-list {
-  background-color: #272757;
-  border: 1px solid rgb(35, 35, 79);
-}
-
-.p-dashboards-show .v2 .my-list .label {
-   color: #a8abd4;
-}
-
-.b-user_rate-history .status-counter {
-   color: #a8abd4;
-}*/
 body {
-  background: #1c1e20;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #e2e2e2;
+    font-family: play,sans-serif;
+    background: #1c1e20;
 }
 
 h1 {
@@ -141,4 +56,119 @@ p {
   height: 100vh;
   background: #1c1e20;
   overflow: hidden;
+}
+
+.Rules_wrapper__1qE9t {
+  background: #121212;
+  width: 100vw;
+  height: calc(100vh - 65px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: auto;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+.Rules_pageWrapper__3V1lj {
+  display: flex;
+  flex-direction: row;
+}
+
+.Rules_menu__2_WgX {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 20%;
+  height: calc(100vh - 65px);
+  background: #1c1e20;
+  padding: 24px;
+}
+
+.Rules_globalLink__35Ctr {
+  font-size: 28px;
+  cursor: pointer;
+  color: #6f3e8e;
+  margin-left: 8px;
+  padding: 4px 0;
+}
+
+.Rules_menuBigLink__99AZ4 {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 16px;
+  padding: 4px 0;
+}
+
+.Rules_menuLink__1RTic {
+  cursor: pointer;
+  font-size: 18px;
+  opacity: .7;
+  margin-left: 32px;
+  padding: 2px 0;
+}
+
+.Rules_rulesBox__1O7f0 {
+  margin-left: 20%;
+  width: 80%;
+  padding: 64px;
+}
+
+.Rules_headerBig__2PIHq {
+  font-size: 28px;
+  color: #6f3e8e;
+}
+
+.Rules_textBox__3CgRg {
+  font-size: 18px;
+  padding: 16px;
+}
+
+.Rules_header__2QK08 {
+  font-size: 24px;
+}
+
+.Rules_textBoxWithOffset__1kLwz {
+  margin-left: 16px;
+  font-size: 18px;
+  padding: 16px;
+}
+
+.DragComponent_wrapper__3yvLM {
+  background: #232323;
+  border-radius: 5px;
+  box-shadow: 0 2px 30px rgb(0 0 0 / 25%);
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.DragComponent_header__2JaBu {
+  width: 100%;
+  justify-content: space-between;
+  font-size: 16px;
+  background: #1c1e20;
+  border-bottom: 15px solid #151719;
+}
+
+.DragComponent_headerTextBox__3Kcbh {
+  background: #151719;
+  padding: 0 8px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.DragComponent_icons__2hbyY {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.DragComponent_header__2JaBu, .DragComponent_headerTextBox__3Kcbh {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: #e2e2e2;
+  border-radius: 5px 5px 0 0;
 }
